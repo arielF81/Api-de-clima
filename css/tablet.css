@@ -1,0 +1,23 @@
+#card {
+    background-color: #5068F2;
+    margin-left: 24vw;
+}
+
+@media screen and (min-width: 576px) {
+    #divBtn {
+        margin-left: 0vw;
+    }
+    #btn1 {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 928px) {
+    #btn1 {
+        width: 60vw;
+    }
+}
+
+label {
+    margin-left: 20vw;
+}

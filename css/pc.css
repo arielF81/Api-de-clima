@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#card {
+    background-color: #5068F2;
+    margin-left: 25.5vw;
+    border-radius: 5vw;
+}
+
+body {
+    background-image: url(../video/fondito.jpg);
+}
+
+#pcurrent {
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2F2F2;
+    margin-left: 0vw;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2F2F2;
+    padding-left: 0.2vw;
+}
+
+#divBtn {
+    margin-left: 10vw;
+}
+
+#btn1 {
+    background-color: #7285F2;
+    font-family: 'Montserrat', sans-serif;
+    width: 15vw;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 4px 2px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#btn1:hover {
+    background-color: #5068F2;
+}
+
+#nav {
+    background-color: #7285F2;
+    color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    height: 8vh;
+    font-size: 0.5em;
+}
+
+label {
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    margin-left: 4vw;
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+input {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 60vw;
+    height: 10vh;
+    padding-left: 10px;
+    outline: none
+}
+
+input[type="text"] {
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: #7285F2;
+    margin-top: 50vh;
+    ;
+}
+
+footer p {
+    background-color: #7285F2;
+    padding-bottom: 5vh;
+    margin-bottom: 0%;
+}
+
+
+/* PALETA DE COLORES-------->
+
+/* Color Theme Swatches in Hex */
+
+.Atlas-Copco-Rebranding-1-hex {
+    color: #0511F2;
+}
+
+.Atlas-Copco-Rebranding-2-hex {
+    color: #5068F2;
+}
+
+.Atlas-Copco-Rebranding-3-hex {
+    color: #7285F2;
+}
+
+.Atlas-Copco-Rebranding-4-hex {
+    color: #0742F2;
+}
+
+.Atlas-Copco-Rebranding-5-hex {
+    color: #F2F2F2;
+}
+
+
+/* Color Theme Swatches in RGBA */
+
+.Atlas-Copco-Rebranding-1-rgba {
+    color: rgba(4, 16, 242, 1);
+}
+
+.Atlas-Copco-Rebranding-2-rgba {
+    color: rgba(79, 104, 242, 1);
+}
+
+.Atlas-Copco-Rebranding-3-rgba {
+    color: rgba(113, 133, 242, 1);
+}
+
+.Atlas-Copco-Rebranding-4-rgba {
+    color: rgba(7, 66, 242, 1);
+}
+
+.Atlas-Copco-Rebranding-5-rgba {
+    color: rgba(242, 242, 242, 1);
+}
+
+
+/* Color Theme Swatches in HSLA */
+
+.Atlas-Copco-Rebranding-1-hsla {
+    color: hsla(236, 96, 48, 1);
+}
+
+.Atlas-Copco-Rebranding-2-hsla {
+    color: hsla(230, 86, 63, 1);
+}
+
+.Atlas-Copco-Rebranding-3-hsla {
+    color: hsla(230, 83, 69, 1);
+}
+
+.Atlas-Copco-Rebranding-4-hsla {
+    color: hsla(225, 94, 48, 1);
+}
+
+.Atlas-Copco-Rebranding-5-hsla {
+    color: hsla(0, 0, 95, 1);
+}
