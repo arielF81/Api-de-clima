@@ -3,5 +3,5 @@
 
 Nombre: Ariel Fiorito.
 Comision: Noche A
-Camino elegido A : se muestran videos de fondo según el resultadp del estado del clima.
+Camino elegido A : se muestran videos de fondo según el resultado del estado del clima.
 
