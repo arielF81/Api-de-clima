@@ -2,6 +2,6 @@
  aplicación de clima 
 
 Nombre: Ariel Fiorito.
-Comision: Noche A
+Comision: Noche A.
 Camino elegido A : se muestran videos de fondo según el resultado del estado del clima.
 
