@@ -1,9 +1,6 @@
 'use strict';
 
 const d = document;
-
-
-
 const API_KEY = "f3412604fc05c46d66a65dcf8f4244ea";
 const URL_GEOCODING = "https://api.openweathermap.org/geo/1.0/direct";
 const URL_CURRENT_W = "https://api.openweathermap.org/data/2.5/weather";
@@ -25,8 +22,6 @@ const hora = fecha.getHours();
 const dia = fecha.getDate();
 const mes = fecha.getMonth();
 
-
-
 const btn = d.querySelector('.btn');
 const inputElement = d.getElementById('search');
 let divContenedor = d.createElement(`div`)
@@ -35,7 +30,6 @@ divContenedor.className = "container";
 let divVIdeo = d.createElement(`div`);
 
 
-// FUNCION PARA GUARDAR EN LOCAL STORAGE------------------------>
 function guardarLocal() {
     let datosGuardados = JSON.parse(localStorage.getItem("resultadoCiudades"));
     if (datosGuardados == null) datosGuardados = [];
